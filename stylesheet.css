@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(gambar-1-bird.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(11, 97, 8, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  font-size: 20px;
+  }
+.header-left {
+  float: left;
+  line-height:60px;
+}
+.header-left a {
+  color: azure;
+  margin-left: 10px;
+}
+
+/*memunculkan icon untuk tampilan smartphones*/
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.header-right {
+  float: right;
+  line-height:60px;
+}
+.select {
+  color:white;
+  font-size: 13px;
+  margin-right: 100px;
+}
+.about {
+    margin-right:30px;
+}
+.species {
+    margin-right: 30px;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 16%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+input{
+  width: 300px;
+  height: 25px;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  padding: 18px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/* Tambahkan CSS untuk tag <img> yang berada didalam <footer> */
+li{
+	
+  list-style: none;
+  }
+  .footer{
+    background-color: #000000; 
+    color: rgb(209, 199, 199);
+    padding: 40px;
+    height: 170px;
+  }
+  
+  .footer-list li{
+    margin-left: 50px;
+    float:left;
+    padding-left: 20px;
+    margin-bottom : 20px;
+  }
+  .footer-logo
+  {
+    clear: both;
+    float:left;
+    text-align:left;
+  }
+  .footer-logo p {
+    float : right;
+    padding-left:30px;
+  }
